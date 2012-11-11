@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Help</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+
+        <item>
+            <title>NetPlayer</title>
+            <description>
+            <![CDATA[<img src="images/netplayer.png" />NetPlayer ist ein vielseitiges Werkzeug für die Präsentation von Multimedia-Dokumenten die sich direkt im Internet befinden. Es ermöglicht, Filme, Radio zu hören, RSS-Feeds zu lesen und den Inhalt von ausgewählten Websites darzustellen.]]>
+            </description>
+			</item>
+        <item>
+            <title>Hilfe für die Symbolleiste</title>
+            <description>
+            <![CDATA[<img src="images/help_helpbar.png" />Am unteren Rand des Bildschirms hilft ihnen eine Symbolleiste die sichtbar ist. Es zeigt kurze Hinweise auf die Funktion der verschiedenen Tasten. Der Inhalt der Hilfe-Symbolleiste erscheint automatisch auf die aktuelle Situation. Während des abspielens des Films wird die Symbolleiste ausgeblendet. Durch Drücken der Taste "INFO" wird sie wieder sichtbar.]]>
+            </description>
+        </item>
+        <item>
+            <title>Widget Konfiguration</title>
+            <description><![CDATA[<img src="images/big/xml.png" />Nach der Installation des NetPlayer`s sind alle Ordner im leer. Sie sollten Adressen zu den ausgewählten XML-Dateien einfuegen. Jede solche Datei ist eine Liste der verfügbaren Filme, Fotos, Webseiten und anderen Dokumente.
+Informationen über die XML-Dateien, in denen diese Dateien zu finden sind, wie das Erstellen, Ändern, etc. , finden Sie unter http://tvwidget.pl]]>
+        </description>
+        </item>
+        <item>
+            <title>XML Dateien</title>
+            <description>
+            <![CDATA[<img src="images/help_abc.png" />Sobald Sie einen Ordner im Root-Verzeichnis öffnen, sind die farbigen Tasten auf der Fernbedienung ('A', 'B', 'C') aktiviert.<br />
+Rote Taste "A" löscht die ausgewählte Adresse der XML-Datei <br />
+Taste 'B' und 'C ' öffnen die Tastatur. Es ermöglicht Ihnen das Hinzufügen und Ändern der Datenbank. <br />
+Die übernahme von Änderungen erfordert, dass Sie die "Enter" Taste drücken.<br />
+"Back" Taste löscht alle Änderungen.]]>
+            </description>
+        </item>
+        <item>
+            <title>Video und audio Dateien</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_video.png" />NetPlayer akzeptiert alle Arten von Mediendateien, die im Handbuch Ihres TV aufgeführt sind. Sie haben volle Kontrolle über die Wiedergabe und Größenänderung des Bildes.
+Wiedergabe fortzusetzen wird unterstützt.]]>
+            </description>
+        </item>
+        <item>
+            <title>WWW Seiten</title>
+            <description>
+            <![CDATA[<img src="images/big/picture.png" />Es ist möglich, den Inhalt von ausgewählten Web-Seiten anzuzeigen. Beachten Sie jedoch, dass JavaScritpt nicht unterstützt wird. So können einige Seiten nicht korrekt angezeigt werden.
+Maus-Unterstützung durch den TV ist nicht möglich.]]>	
+            </description>
+        </item>
+        <item>
+            <title>RSS</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_rss.png" />Mit RSS wird eine Datei im spezifischem Format aufgerufen. Es zeigt die Infos des Webseitenbetreibers an. Meistens ist die eigentliche Information rund um das Thema vor Ort.]]>
+            </description>
+        </item>     
+        <item>
+            <title>Text Dokumente</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_text.png" />Die Text-Dokumente sind in der Regel in der Sprache mit den spezifischen Charaktere erstellt wurden. Es gibt viele Normen solcher Zeichen.
+NetPlayer Widget unterstützt nur UTF-8. Wenn Sie andere Methoden verwenden, könnte ein Problem mit der korrekten Darstellung der Zeichen erfolgen.
+Informationen zum Ändern der Codierung der angezeigten Dokumente können bei http://tvwidget.pl nachgelesen werden]]>
+            </description>
+        </item>
+    </channel>
+</rss>

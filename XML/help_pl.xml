@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Pomoc</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+
+        <item>
+            <title>NetPlayer 2.0</title>
+            <description>
+            <![CDATA[<img src="images/netplayer.png" />NetPlayer jest uniwersalnym narzędziem służącym do prezentowania multimedialnych dokumentów pobieranych bezpośrednio z Internetu. Umożliwia on między innymi oglądanie filmów, słuchanie radia, przeglądanie kanałów RSS oraz wyświetlanie zawartości wybranych stron WWW.]]>
+            </description>
+			</item>
+        <item>
+            <title>Pasek pomocy</title>
+            <description>
+            <![CDATA[<img src="images/help_helpbar.png" />Na dole ekranu widoczny jest pasek pomocy. Pojawiają się na mim podpowiedzi dotyczące funkcji jakie wywołują poszczególne klawisze. Zawartość paska pomocy automatycznie dostosowuje się do aktualnej sytuacji. W czasie wyświetlania filmu pasek pomocy zostaje ukryty. Jednak w każdej chwili można go przywrócić naciskając przycisk "INFO".]]>
+            </description>
+        </item>
+        <item>
+            <title>Konfiguracja widgetu</title>
+            <description><![CDATA[<img src="images/big/xml.png" />Po zainstalowaniu NetPlayera wszystkie foldery w menu głównym będą puste. Użytkownik powinien w nich umieścić adresy do wybranych plików XML. Każdy taki plik to lista dostępnych filmów, zdjęć, stron WWW i innych dokumentów.
+Więcej informacji na temat plików XML typu gdzie znaleźć takie pliki, jak je samemu tworzyć, modyfikować itd. można znaleźć na stronie http://tvwidget.pl]]>
+        </description>
+        </item>
+        <item>
+            <title>Pliki XML</title>
+            <description>
+            <![CDATA[<img src="images/help_abc.png" />Po otworzeniu wybranego folderu w katalogu głównym uaktywnione zostaną kolorowe przyciski na pilocie oznaczone literami 'A', 'B', 'C'. <br />
+Czerwony przycisk 'A' powoduje skasowanie wybranego adresu pliku XML.<br />
+Przyciski 'B' i 'C' powodują wyświetlenie klawiatury. Pozwala ona na dodanie i modyfikacje adresu.<br />
+Akceptacja wszelkich zmian wymaga wybrania na klawiaturze "enter".<br />
+"Powrót" spowoduje anulowanie wszelkich modyfikacji.]]>
+            </description>
+        </item>
+        <item>
+            <title>Pliki wideo i audio</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_video.png" />NetPlayer akceptuje wszystkie typy plików multimedialnych wymienione w instrukcji do telewizora. Możliwe jest pełne sterowanie odtwarzaniem oraz zmiana rozmiarów wyświetlanego obrazu.
+Obsługiwana jest również funkcja wznowienia odtwarzania.]]>
+            </description>
+        </item>
+        <item>
+            <title>Strony WWW</title>
+            <description>
+            <![CDATA[<img src="images/big/picture.png" />Możliwe jest wyświetlenie zawartości wybranych stron WWW. Należy jednak pamiętać, że nie jest obsługiwany JavaScritpt. Tak więc część witryn może wyglądać nieprawidłowo.
+Z powodu braku obsługi myszki przez telewizor nie jest możliwa interakcja użytkownika ze stroną WWW.]]>	
+            </description>
+        </item>
+        <item>
+            <title>RSS</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_rss.png" />Kanałem RSS jest nazywamy plik w odpowiednim formacie, załączony do witryny internetowej i prezentujący wybrane przez autora witryny treści. Najczęściej są to bieżące informacje, związane z tematyką strony.]]>
+            </description>
+        </item>     
+        <item>
+            <title>Dokumenty tekstowe</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_text.png" />W dokumentach tekstowych zwykle znajdują się litery specyficzne dla danego języka. Istnieje wiele standardów kodowania takich znaków.
+Widget obsługuje jedynie kodowanie UTF-8. W przypadku zastosowania innych metod może wystąpić problem z prawidłowym wyświetlaniem niektórych liter.
+Informacje na temat zmiany sposobów kodowania w wyświetlanych dokumentach można znaleźć na stronie http://tvwidget.pl]]>
+            </description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Online Video</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">     
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/API/Plugin.js"></script>
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/Util/Include.js"></script>
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/API/CM_AVSetting.js"></script>
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/IME/ime2.js"></script>
+
+        <script type="text/javascript" language="javascript" src="XHRExample.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Display.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Player.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Audio.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Keyboard.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Loading.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Helpbar.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/File.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Megavideo.js"></script>
+        <script language="javascript" type="text/javascript" src="javascript/Screen.js"></script>
+      	<script language="javascript" type="text/javascript" src="http://urltoxml.googlecode.com/files/URLtoXML.js"></script>
+      	<script language="javascript" type="text/javascript" src="javascript/Decurl.js"></script>
+      	<script language="javascript" type="text/javascript" src="javascript/Main.js"></script>
+		
+       
+	</head>
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+        <a href='javascript:void(0);' id='anchor' onkeydown='Main.MainKeyHandler();'  ></a>
+        <object id="pluginObjectSef" border=0 classid="clsid:SAMSUNG-INFOLINK-SEF" style="opacity:0.0;background-color:#000000;width:0px;height:0px;"></object>
+        <object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER" style="z-index:99;opacity:0.0;background-color:#000000;width:0px;height:0px;"></object>
+        <object id="pluginWindow" classid="clsid:SAMSUNG-INFOLINK-WINDOW" ></object>
+        <object id="pluginAudio" border=0 classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+        <object id="pluginObjectNNavi" border="0" classid="clsid:SAMSUNG-INFOLINK-NNAVI" style="opacity:0.0;background-color:#000000;width:0px;height:0px;"></object>
+        <object id="pluginObjectTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW" style="opacity:0.0;background-color:#000000;width:0px;height:0px;"></object>
+        <object id='pluginFile' border=0 classid='clsid:SAMSUNG-INFOLINK-FILESYSTEM' style='opacity:0.0;background-color:#000000;width:0px;height:0px;'></object>
+        <object id='pluginScreen' border=0 classid="clsid:SAMSUNG-INFOLINK-SCREEN"></object>
+        <object id="pluginAppCommon" classid="clsid:SAMSUNG-INFOLINK-APPCOMMON" ></object>
+	<object id="pluginTime" border=0 classid="clsid:SAMSUNG-INFOLINK-TIME"></object>
+	<object id="pluginNetwork" border=0 classid="clsid:SAMSUNG-INFOLINK-NETWORK"></object>
+        
+        <div id="alert"></div>
+        <img id='imgCam' src="" width='640px' height='480px' onload="imgCam_onLoad()"></img>
+        <img id='imgKeyb' src="images/keyboard.png" width='821px' height='401px'></img>
+        <img id='imgKeybCyr' src="images/keyboard_cyr.png" width='821px' height='401px'></img>
+        <img id='cursorKeyb' src="images/pointer.png" width='103px' height='100px'></img>
+        <input id='inputKeyb' type="text" />
+        <img id="shiftKeyb" src="images/shift.png" width='100px' height='48px'></img>
+        <div  id='back_rss'>
+            <div id="flags">
+                <img id='flags_sk' src="images/flags/ru.gif"></img>
+                <img id='flags_sk' src="images/flags/gb.gif"></img>
+            </div>
+            <div id='title'></div>
+            <div id='update'></div>
+            <div id='about'><font color='white'>by Digital, Germet, Trv, Tsnakeman</font></div>
+            <div id='header' class='s_header'>
+                <img id='imgHeader'></img>
+                <div id='lblHeaderTitle'></div>
+                <div id='lblHeaderTime'></div>
+                <div id='lblHeaderText'></div>
+            </div>
+                <img id='imgFrame' src="images/frame.png"></img>
+                <img id='imgTitle_0' src="images/help.png" width='32px' height='32px'></img>
+                <div id='lblTitle_0'>Help</div>
+                <img id='imgTitle_1' src="images/folder.png" width='32px' height='32px'></img>
+                <div id='lblTitle_1'></div>
+                <img id='imgTitle_2' src="images/folder.png" width='32px' height='32px'></img>
+                <div id='lblTitle_2'></div>
+                <img id='imgTitle_3' src="images/folder.png" width='32px' height='32px'></img>
+                <div id='lblTitle_3'></div>
+                <img id='imgTitle_4' src="images/folder.png" width='32px' height='32px'></img>
+                <div id='lblTitle_4'></div>
+                <img id='imgTitle_5' src="images/folder.png" width='32px' height='32px'></img>
+                <div id='lblTitle_5'></div>
+                <div id='scrollBar'><div id='scrollBarPos'></div></div>
+        </div>
+        <div id="infoMovi">
+             <div id="progressBarBG"><div id="progressBar"></div></div>
+             <div id="timeInfo">0:00:00/0:00:00</div>
+             <div id="titleInfo"></div>
+        </div>
+        <div id="sizeInfoBG"><div id="sizeInfo">Default Size</div></div>
+        <div id="volumeBarBG"><div id="volumeBar"></div></div>
+        <div id="loading">
+		 <div id="percent"></div>
+        </div>
+         <div id="helpbar">
+                <div id='helpbar_time'>00:00:00</div>
+                <table id="helpbar_table" ><tr></tr></table>
+         </div>
+         <iframe id='iframe' onload="iframe_onLoad()" frameBorder="0"></iframe>
+	</body>
+
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Онлайн медиа каталог</title>
+    <item>
+      <title>Прямой доступ к популярным сайтам</title>
+      <description>
+        <![CDATA[<img src="http://tr-41.narod.ru/widget/logo/hms.png"/><font color="green"><b>Плейлисты от Tsnakeman</b></font>: Динамически создаваемые плейлисты популярных медиапорталов.<br>Последняя информация с новинками кино с передовых порталов на экране Вашего ТВ без каких-либо дополнительных настроек. Будьте в курсе последних новостей киноиндустрии.]]></description>
+      <icon url="images/icon/folder_video.png " />
+      <enclosure url="http://tr-41.narod.ru/widget/XML/OVP/index.xml" type="text/xml" />
+    </item>
+    <item>
+      <title>Мои ссылки</title>
+      <description>Пользовательские ссылки, добавляйте URL</description>
+      <enclosure type="user" />
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Error !</title>
+            <description><![CDATA[<img src="images/error.png" />File at the address has wrong structure. Check if the address is correct.]]></description>
+			</item>
+    </channel>
+</rss>

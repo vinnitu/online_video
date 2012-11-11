@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer ver. 2.0</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Помощь</title>
+            <description>Основная информация о том, как использовать виджет NetPlayer</description>
+            <enclosure url="images/big/help.png"  type="image/jpeg" />
+            <icon url="images/icon/folder_help.png" />
+		</item>
+            
+        <item>
+            <title>Видео</title>
+            <description>Видео услуги, видео по требованию (VOD), видеокасты...</description>
+            <enclosure url="images/big/video.png" type="image/png" />
+            <icon url="images/icon/folder_video.png" />
+        </item>
+        
+        <item>
+            <title>Аудио</title>
+            <description>Интернет радио, аудио файлы...</description>
+            <enclosure url="images/big/audio.png" type="image/png" />
+            <icon url="images/icon/folder_audio.png" />
+        </item>
+        <item>
+            <title>ТВ</title>
+            <description>Интернет ТВ ...</description>
+            <enclosure url="images/big/tv.png" type="image/png" />
+            <icon url="images/icon/folder_tv.png" />
+        </item>
+        <item>
+            <title>Фото</title>
+            <description>Фотографии на вебсайтах, вебкамеры...</description>
+            <enclosure url="images/big/foto.png" type="image/png" />
+            <icon url="images/icon/folder_picture.png" />
+        </item>
+        
+        <item>
+            <title>RSS</title>
+            <description>Информационные услуги, спортивные новости...</description>
+            <enclosure url="images/big/rss.png" type="image/png" />
+            <icon url="images/icon/folder_rss.png" />
+        </item>
+         
+        <item>
+            <title>Почта</title>
+            <description>Пока не доступно...</description>
+            <enclosure url="images/big/mail.png" type="image/png" />
+            <icon url="images/icon/folder_mail.png" />
+        </item>
+        
+        <item>
+            <title>Новости</title>
+            <description>Пока не доступно ...</description>
+            <enclosure url="images/big/usenet.png" type="image/png" />
+            <icon url="images/icon/folder_usenet.png" />
+        </item>
+        
+    </channel>
+</rss>
+ 

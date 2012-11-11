@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer ver. 2.0</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Pomoc</title>
+            <description>Podstawowe informacje na temat używania widgetu NetPlayer.</description>
+            <enclosure url="images/big/help.png"  type="image/jpeg" />
+            <icon url="images/icon/folder_help.png" />
+		</item>
+            
+        <item>
+            <title>Filmy</title>
+            <description>Serwisy filmowe,  wideo na życzenie (VOD),  videocast ...</description>
+            <enclosure url="images/big/video.png" type="image/png" />
+            <icon url="images/icon/folder_video.png" />
+        </item>
+        
+        <item>
+            <title>Audio</title>
+            <description>Radia internetowe, pliki audio ...</description>
+            <enclosure url="images/big/audio.png" type="image/png" />
+            <icon url="images/icon/folder_audio.png" />
+        </item>
+        
+        <item>
+            <title>TV</title>
+            <description>Telewizja przez Internet ...</description>
+            <enclosure url="images/big/tv.png" type="image/png" />
+            <icon url="images/icon/folder_tv.png" />
+        </item>
+        <item>
+            <title>Zdjęcia</title>
+            <description>Serwisy ze zdjęciami, kamery internetowe ...</description>
+            <enclosure url="images/big/foto.png" type="image/png" />
+            <icon url="images/icon/folder_picture.png" />
+        </item>
+        
+        <item>
+            <title>RSS</title>
+            <description>Serwisy informacyjne, wiadomości sportowe ...</description>
+            <enclosure url="images/big/rss.png" type="image/png" />
+            <icon url="images/icon/folder_rss.png" />
+        </item>
+         
+        <item>
+            <title>Poczta</title>
+            <description>Funkcja jeszcze niedostępna ...</description>
+            <enclosure url="images/big/mail.png" type="image/png" />
+            <icon url="images/icon/folder_mail.png" />
+        </item>
+        
+        <item>
+            <title>Grupy dyskusyjne</title>
+            <description>Funkcja jeszcze niedostępna ...</description>
+            <enclosure url="images/big/usenet.png" type="image/png" />
+            <icon url="images/icon/folder_usenet.png" />
+        </item>
+        
+    </channel>
+</rss>
+ 

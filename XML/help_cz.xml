@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Pomoc</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+
+        <item>
+            <title>NetPlayer 2.0</title>
+            <description>
+            <![CDATA[<img src="images/netplayer.png" />NetPlayer je univerzální nástroj pro prezentaci multimediálních dokumentů získaných přímo z Internetu. Mimo jiné umožňuje, sledování filmů, poslech rádia, čtení RSS kanálů a zobrazení obsahu vybraných webových stránek.]]>
+            </description>
+			</item>
+        <item>
+            <title>Nápověda Toolbar</title>
+            <description>
+            <![CDATA[<img src="images/help_helpbar.png" />Ve spodní části panelu displeje je viditelný pomocný panel. Objeví se s ním popisy k funkcím, které poskytují různá tlačítka ovladače. Obsah panelu se automaticky přizpůsobí aktuální situaci. Při přehrávání filmu je panel skrytý. Ale kdykoli ho můžete zobrazit stiskem tlačítka "INFO".]]>
+            </description>
+        </item>
+        <item>
+            <title>Widget  konfigurace</title>
+            <description><![CDATA[<img src="images/big/xml.png" />Po instalaci NetPlayera  budou všechny složky v hlavním menu prázdné. Měli byste přidat adresy vybraných souborů XML. Každý takový soubor je seznam dostupných filmů, fotografií, webových stránek a dalších dokumentů.
+Pro více informací o typu XML souborů, kde najít tyto soubory, jak je sami vytvářet, upravovat, atd.  lze nalézt na http://tvwidget.pl]]>
+        </description>
+        </item>
+        <item>
+            <title>XML soubory</title>
+            <description>
+            <![CDATA[<img src="images/help_abc.png" />Jakmile otevřete složku v kořenovém adresáři, budou aktivována barevná tlačítka na dálkovém ovladači označené 'A', 'B', 'C'. <br />
+Červené tlačítko  'A'  smaže vybranou adresu souboru XML.<br />
+Tlačítky  'B'  a  'C'  zobrazíte klávesnici. To vám umožní přidat nebo  změnit adresu.<br />
+Potvrzení  jakékoli změny vyžaduje,  abyste na klávesnici stisknuli "enter".<br />
+"Zpět" zruší  všechny změny.]]>
+            </description>
+        </item>
+        <item>
+            <title>Video a audio soubory</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_video.png" />NetPlayer   akceptuje všechny typy mediálních souborů které  jsou  uvedeny v návodu k televizoru. Můžete plně ovládat přehrávání  a velikost obrazu.
+Je také podporována funkce obnovení přehrávání.]]>
+            </description>
+        </item>
+        <item>
+            <title>Webové stránky</title>
+            <description>
+            <![CDATA[<img src="images/big/picture.png" />Je možné prohlížet obsah vybraných webových stránek. Uvědomte si  však,  že  není podporován  JavaScritpt.
+Proto se  některé stránky  nemusí zobrazovat správně.
+Pro absenci myši a podpory ze strany televize nemůžete aktivně používat  WWW.]]>	
+            </description>
+        </item>
+        <item>
+            <title>RSS</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_rss.png" />Technologie RSS umožňuje uživatelům  přihlásit se k odběru novinek z webu, který nabízí RSS zdroj (RSS feed, též RSS kanál, RSS channel). Tento zdroj se většinou vyskytuje na stránkách, kde se obsah mění a přidává velmi často (například zpravodajské servery).]]>
+            </description>
+        </item>     
+        <item>
+            <title>Textové dokumenty</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_text.png" />Textové dokumenty jsou obvykle uloženy ve formátu znaků pro specifický jazyk. Existuje mnoho standardů těchto znaků.
+Widget podporuje pouze kódování UTF-8. Pokud používáte jiné metody můžete  mít problém se správným zobrazením některých písmen (diakritikou).
+Informace o změně způsobu kódování zobrazených  dokumentů  lze nalézt na http://tvwidget.pl]]>
+            </description>
+        </item>
+    </channel>
+</rss>

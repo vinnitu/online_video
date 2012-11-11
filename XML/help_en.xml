@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Help</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+
+        <item>
+            <title>NetPlayer 2.0</title>
+            <description>
+            <![CDATA[<img src="images/netplayer.png" />NetPlayer is a versatile tool for presenting multimedia documents located directly at the Internet. It allows to watch movies, listen to the radio, read RSS feeds and display the content of selected web sites.]]>
+            </description>
+			</item>
+        <item>
+            <title>Help toolbar</title>
+            <description>
+            <![CDATA[<img src="images/help_helpbar.png" />At the bottom of the screen help toolbar is visible. It displays the short hints about the function of different keys. The contents of the help toolbar automatically adjusts to the current situation. During the play of the film help toolbar is hidden. But anytime you can restore it by pressing the "INFO" button.]]>
+            </description>
+        </item>
+        <item>
+            <title>Widget configuration</title>
+            <description><![CDATA[<img src="images/big/xml.png" />After installing NetPlayer all the folders in the main menu will be blank. You should put addresses to the selected XML files. Each such file is a list of available movies, photos, web pages and other documents.
+Information on the XML files, where to find these files, how to create, modify, etc. them by yourself, can be found at http://tvwidget.pl]]>
+        </description>
+        </item>
+        <item>
+            <title>XML Files</title>
+            <description>
+            <![CDATA[<img src="images/help_abc.png" />Once you open a folder in the root directory, colored buttons on the remote marked 'A', 'B', 'C' will be activated.<br />
+Red button 'A' will erase the selected address the XML file. <br />
+Buttons 'B' and 'C' will trigger the keyboard. It allows you to add and modify the address. <br />
+Acceptance of any change requires you to select the keyboard "Enter".<br />
+"Back" button will cancel any changes.]]>
+            </description>
+        </item>
+        <item>
+            <title>Video and audio files</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_video.png" />NetPlayer accepts all types of media files listed in the manual for your TV. You can fully control playback and resizing of the image.
+Playback resume is supported.]]>
+            </description>
+        </item>
+        <item>
+            <title>WWW pages</title>
+            <description>
+            <![CDATA[<img src="images/big/picture.png" />It is possible to view the content of selected Web pages. However, please note that JavaScritpt it is not supported . Thus, some sites may appear incorrectly.
+In the absence of mouse support by the TV it's not possible to interact with a Web site.]]>	
+            </description>
+        </item>
+        <item>
+            <title>RSS</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_rss.png" />By RSS a file in the specific format is called. It's attached to the website and presenting selected by the author of the site content. Mostly that is actual information related to the subject site.]]>
+            </description>
+        </item>     
+        <item>
+            <title>Text documents</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_text.png" />The text documents are usually created in the language with the specific characters. There are many standards of such characters.
+NetPlayer widget supports only UTF-8. If you use other methods may have a problem with the proper display of some characters.
+Information on changing the encoding of the displayed documents can be found at http://tvwidget.pl]]>
+            </description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Chyba !</title>
+            <description><![CDATA[<img src="images/error.png" />Soubor na uvedené adrese má nezmámý formát. Zkontrolujte, zda je adresa správná.]]></description>
+			</item>
+    </channel>
+</rss>
+
+ 

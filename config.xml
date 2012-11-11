@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<widgetname>Online Video</widgetname>
+	<ver>2.77</ver>
+	<type>user</type>
+	<fullwidget>y</fullwidget>
+	<srcctl>y</srcctl>
+	<flashplayer>y</flashplayer>
+	<category>video</category>
+	<network>n</network>
+	<dcont>y</dcont>
+	<movie>y</movie>
+	<width>960</width>
+	<height>540</height>
+	<ThumbIcon>images/ico106x87.png</ThumbIcon>
+	<BigThumbIcon>images/ico115x95.png</BigThumbIcon>
+	<ListIcon>images/ico86x70.png</ListIcon>
+	<BigListIcon>images/ico95x78.png</BigListIcon>
+	<description>Online Video Player</description>	
+	<author>
+		<name>tsnakeman@gmail.com</name>
+		<link>http://tr-41.narod.ru</link>
+		<organization></organization>
+	</author>
+</widget>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Yard&#305;m</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+
+        <item>
+            <title>NetPlayer 2.0</title>
+            <description>
+            <![CDATA[<img src="images/netplayer.png" /> NetPlayer Internet &#252;zerinde bulunan multimedya belgeleri oynatmak i&#231;in &#231;ok y&#246;nl&#252; bir ara&#231;t&#305;r. Bu widget, radyo dinlemeyi, film izlemeyi sa&#287;lar. RSS beslemelerini ve se&#231;ilmi&#351; web sitelerinin i&#231;eri&#287;i g&#246;r&#252;nt&#252;leyebilir.]]>
+            </description>
+			</item>
+        <item>
+            <title>Yard&#305;m Ara&#231;lar&#305;</title>
+            <description>
+            <![CDATA[<img src="images/help_helpbar.png" /> Yard&#305;m ara&#231; &#231;ubu&#287;u ekran&#305;n alt&#305;nda g&#246;r&#252;n&#252;r. Farkl&#305; tu&#351;lar&#305;n i&#351;levi hakk&#305;nda k&#305;sa ipu&#231;lar&#305; g&#246;r&#252;nt&#252;ler. Yard&#305;mc&#305; ara&#231; &#231;ubu&#287;u kendini i&#231;eri&#287;e g&#246;re otomatik olarak ayarlar. Video oynatma esnas&#305;nda yard&#305;mc&#305; ara&#231; &#231;ubu&#287;u gizlidir ve "INFO" tu&#351;una basarak g&#246;rebilirsiniz]]>
+            </description>
+        </item>
+        <item>
+            <title>Widget Ayarlar&#305;</title>
+            <description><![CDATA[<img src="images/big/xml.png" /> NetPlayer ana men&#252;s&#252;ndeki t&#252;m klas&#246;rler kurulumdan sonra bo&#351; olacakt&#305;r. Bu klas&#246;rlere, klas&#246;r i&#231;eri&#287;ine g&#246;re XML dosyalar&#305;n&#305;n adresleri eklemek gerekir. Her XML dosyas&#305; kendi i&#231;inde filmleri, foto&#287;raflar&#305;, web sayfalar&#305; ve di&#287;er belgelerin bir listesini saklar. Bu dosyalar&#305;n nas&#305;l olu&#351;turulaca&#287;&#305;n&#305; ve bu dosyalar&#305; bulmak i&#231;in http://tvwidget.pl adresinden bilgi edinebilirsiniz.]]>
+        </description>
+        </item>
+        <item>
+            <title>XML Dosyalar&#305;</title>
+            <description>
+            <![CDATA[<img src="images/help_abc.png" /> Dizinlerden birine girdi&#287;inizde ara&#351; kutusunda 'A', 'B', 'C' i&#351;aretli renkli d&#252;&#287;meler aktif olacakt&#305;r.<br />
+K&#305;rm&#305;z&#305; d&#252;&#287;me 'A' se&#231;ili XML dosyas&#305;n&#305; siler. <br />
+D&#252;&#287;meler 'B' ve 'C' klavyeyi a&#231;ar. Adres ekleme ve d&#252;zenleme i&#351;lemi yap&#305;labilir.<br />
+Herhangi bir de&#287;i&#351;ikli&#287;i ya da dosya se&#231;imini "Se&#231;" butonuyla yapabilirsiniz.<br />
+"Geri" butonu men&#252;lerden geri d&#246;nmeye ve de&#287;i&#351;iklikleri iptal etmeye yarar.]]>
+            </description>
+        </item>
+        <item>
+            <title>Video ve Ses Dosyalar&#305;</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_video.png"" />NetPlayer televizyonun oynatabilece&#287;i t&#252;m i&#231;erikleri destekler. Oynat&#305;lan i&#231;eri&#287;i ve resimleri tmamen kontrol edebilir, oynat&#305;m&#305; durdurup, devam edebilirsiniz.]]>
+            </description>
+        </item>
+        <item>
+            <title>WWW sayfalar&#305;</title>
+            <description>
+            <![CDATA[<img src="images/big/picture.png" /> Se&#231;ili Web sayfalar&#305;n&#305;n i&#231;eri&#287;ini g&#246;r&#252;nt&#252;lemek m&#252;mk&#252;nd&#252;r. Ancak JavaScript desteklenmemektedir. Ayr&#305;ca siteden kaynakl&#305; hatal&#305; kodlama uyumsuzluklar&#305; olabilir. Bu sebeple, baz&#305; siteler hatal&#305; g&#246;r&#252;nebilir. TV taraf&#305;ndan fare deste&#287;i yoklu&#287;undan bir Web sitesi ile etkile&#351;im m&#252;mk&#252;n de&#287;ildir.]]>	
+            </description>
+        </item>
+        <item>
+            <title>RSS</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_rss.png" /> RSS i&#231;erikleri belirli bi&#231;imlerdedir. Haber i&#231;eriklerini, belirli sitelerin site sahibi taraf&#305;ndan se&#231;ilmi&#351; bilgilerini takip edebilirsiniz.]]>
+            </description>
+        </item>     
+        <item>
+            <title>Yaz&#305; D&#246;k&#252;manlar&#305;</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_text.png" /> Metin belgeleri genellikle belirli karakter dillerine sahiptir. Bu t&#252;r karakterlerin pek &#231;ok standart&#305; vard&#305;r. NetPlayer widgeti sadece UTF-8 destekler. E&#287;er di&#287;er y&#246;ntemleri kullan&#305;yorsan&#305;z baz&#305; karakterlerin d&#252;zg&#252;n g&#246;r&#252;nt&#252;lenmesi ile ilgili bir sorun olabilir. G&#246;r&#252;nt&#252;lenen belgelerin kodlama de&#287;i&#351;kenleri hakk&#305;nda bilgiyi http://tvwidget.pl adresinde bulabilirsiniz.]]>
+            </description>
+        </item>
+    </channel>
+</rss>

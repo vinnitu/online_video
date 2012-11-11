@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Hilfe</title>
+            <description>Basis Information zur Verwendung der NetPlayer widget.</description>
+            <enclosure url="images/big/help.png"  type="image/jpeg" />
+            <icon url="images/icon/folder_help.png" />
+		</item>
+            
+        <item>
+            <title>Video</title>
+            <description>Video services, Video on Demand (VOD), videocast ...</description>
+            <enclosure url="images/big/video.png" type="image/png" />
+            <icon url="images/icon/folder_video.png" />
+        </item>
+        
+        <item>
+            <title>Audio</title>
+            <description>Internet radio, audio files ...</description>
+            <enclosure url="images/big/audio.png" type="image/png" />
+            <icon url="images/icon/folder_audio.png" />
+        </item>
+        
+        <item>
+            <title>Fotos</title>
+            <description>Fotos in Webseiten, webcams ...</description>
+            <enclosure url="images/big/foto.png" type="image/png" />
+            <icon url="images/icon/folder_picture.png" />
+        </item>
+        
+        <item>
+            <title>RSS</title>
+            <description>Informations service, sport Neuigkeiten ...</description>
+            <enclosure url="images/big/rss.png" type="image/png" />
+            <icon url="images/icon/folder_rss.png" />
+        </item>
+         
+        <item>
+            <title>Mail</title>
+            <description>Option ist jetzt noch nicht verfügbar ...</description>
+            <enclosure url="images/big/mail.png" type="image/png" />
+            <icon url="images/icon/folder_mail.png" />
+        </item>
+        
+        <item>
+            <title>Newsgroups</title>
+            <description>Option ist jetzt noch nicht verfügbar ...</description>
+            <enclosure url="images/big/usenet.png" type="image/png" />
+            <icon url="images/icon/folder_usenet.png" />
+        </item>
+        
+    </channel>
+</rss>
+ 

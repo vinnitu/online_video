@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer ver. 2.0</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Nápoveda</title>
+            <description>Základné informácie o tom, ako používať widget Net Player.</description>
+            <enclosure url="images/big/help.png"  type="image/jpeg" />
+            <icon url="images/icon/folder_help.png" />
+		</item>
+            
+        <item>
+            <title>Filmy</title>
+            <description>Video služby,video na vyžiadanie(VOD),Videocast...</description>
+            <enclosure url="images/big/video.png" type="image/png" />
+            <icon url="images/icon/folder_video.png" />
+        </item>
+        
+        <item>
+            <title>Audio</title>
+            <description>Internetové rádio,audio...</description>
+            <enclosure url="images/big/audio.png" type="image/png" />
+            <icon url="images/icon/folder_audio.png" />
+        </item>
+        
+        <item>
+            <title>TV</title>
+            <description>TV cez internet ...</description>
+            <enclosure url="images/big/tv.png" type="image/png" />
+            <icon url="images/icon/folder_tv.png" />
+        </item>
+        
+        <item>
+            <title>Fotky</title>
+            <description>Webové stránky s obrázkami,webové kamery...</description>
+            <enclosure url="images/big/foto.png" type="image/png" />
+            <icon url="images/icon/folder_picture.png" />
+        </item>
+        
+        <item>
+            <title>RSS</title>
+            <description>Informačné služby,zpravodajstvo,šport..</description>
+            <enclosure url="images/big/rss.png" type="image/png" />
+            <icon url="images/icon/folder_rss.png" />
+        </item>
+         
+        <item>
+            <title>Mail</title>
+            <description>Funkcia zatiaľ nie je k dispozícii....</description>
+            <enclosure url="images/big/mail.png" type="image/png" />
+            <icon url="images/icon/folder_mail.png" />
+        </item>
+        
+        <item>
+            <title>Diskusné skupiny</title>
+            <description>Funkcia zatiaľ nie je k dispozícii....</description>
+            <enclosure url="images/big/usenet.png" type="image/png" />
+            <icon url="images/icon/folder_usenet.png" />
+        </item>
+        
+    </channel>
+</rss>
+ 

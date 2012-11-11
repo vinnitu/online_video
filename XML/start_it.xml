@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>NetPlayer ver. 2.0</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+        <item>
+            <title>Aiuto</title>
+            <description>Informazioni di base su come usare la widget NetPlayer.</description>
+            <enclosure url="images/big/help.png"  type="image/jpeg" />
+            <icon url="images/icon/folder_help.png" />
+		</item>
+            
+        <item>
+            <title>Video</title>
+            <description>Video services, Video on Demand (VOD), videocast ...</description>
+            <enclosure url="images/big/video.png" type="image/png" />
+            <icon url="images/icon/folder_video.png" />
+        </item>
+        
+        <item>
+            <title>Audio</title>
+            <description>Internet radio, audio files ...</description>
+            <enclosure url="images/big/audio.png" type="image/png" />
+            <icon url="images/icon/folder_audio.png" />
+        </item>
+        
+       <item>
+            <title>TV</title>
+            <description>TV su Internet ...</description>
+            <enclosure url="images/big/tv.png" type="image/png" />
+            <icon url="images/icon/folder_tv.png" />
+        </item>
+        
+        <item>
+            <title>Foto</title>
+            <description>Foto nei siti, webcams ...</description>
+            <enclosure url="images/big/foto.png" type="image/png" />
+            <icon url="images/icon/folder_picture.png" />
+        </item>
+        
+        <item>
+            <title>RSS</title>
+            <description>Information services, sport news ...</description>
+            <enclosure url="images/big/rss.png" type="image/png" />
+            <icon url="images/icon/folder_rss.png" />
+        </item>
+         
+        <item>
+            <title>Mail</title>
+            <description>La funzione non, al momento disponibile...</description>
+            <enclosure url="images/big/mail.png" type="image/png" />
+            <icon url="images/icon/folder_mail.png" />
+        </item>
+        
+        <item>
+            <title>Newsgroups</title>
+            <description>La funzione non, al momento disponibile...</description>
+            <enclosure url="images/big/usenet.png" type="image/png" />
+            <icon url="images/icon/folder_usenet.png" />
+        </item>
+        
+    </channel>
+</rss>
+ 

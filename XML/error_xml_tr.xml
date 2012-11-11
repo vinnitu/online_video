@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+   <channel>
+      <title>NetPlayer</title>
+      <link>http://TvWidget.pl/</link>
+      <description></description>
+        <item>
+          <title>Hata !</title>
+          <description><![CDATA[<img src="images/error.png" />Adreste dosya bulunamad&#305; ya da dosya hasarl&#305;. L&#252;tfen kontrol edin.]]></description>
+        </item>
+   </channel>
+</rss>
+
+ 
+

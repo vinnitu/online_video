@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Aiuto</title>
+        <link>http://TvWidget.pl/</link>
+        <description></description>
+
+        <item>
+            <title>NetPlayer 2.0</title>
+            <description>
+            <![CDATA[<img src="images/netplayer.png" />NetPlayer è uno strumento versatile per la presentazione di documenti multimediali siti direttamente in Internet. Permette di guardare film, ascoltare la radio, leggere i feed RSS e visualizzare il contenuto di siti web selezionati.]]>
+            </description>
+			</item>
+        <item>
+            <title>Barra di aiuto</title>
+            <description>
+            <![CDATA[<img src="images/help_helpbar.png" />Nella parte inferiore dello schermo è visibile la barra degli strumenti di aiuto. Essa mostra brevi suggerimenti e la funzione dei vari tasti. Il contenuto della barra degli strumenti di aiuto si adatta automaticamente alla situazione attuale. Durante la visione di un film, la barra degli strumenti di aiuto è nascosta. In qualsiasi momento è possibile ripristinarla premendo il tasto "INFO".]]>
+            </description>
+        </item>
+        <item>
+            <title>Configurazione Widget</title>
+            <description><![CDATA[<img src="images/big/xml.png" />Dopo l'installazione del NetPlayer tutte le cartelle all'interno del menu principale saranno vuote. Si dovrà quindi mettere gli indirizzi per i files XML. Ogni file XML è al suo interno un contenitore il quale indirizza ad una lista di film disponibili, foto, pagine web e altri documenti.
+Informazioni sui files XML, dove trovarli, come crearli, modificarli, ecc... possono essere trovati al seguente indirizzo http://tvwidget.pl]]>
+        </description>
+        </item>
+        <item>
+            <title>XML Files</title>
+            <description>
+            <![CDATA[<img src="images/help_abc.png" />Una volta aperta una qualsiasi cartella nella directory principale, i pulsanti colorati del telecomando 'A', 'B', 'C' sarnno attivati.<br />
+Il bottone rosso 'A' cancellerà i files XML selezionati. <br />
+I bottoni 'B' e 'C' attiveranno la tastiera sullo schermo. Essa ti permetterà di modificare ed aggiungere indirizzi ai file XML. <br />
+L'accettazione di qualsiasi cambiamento e/o modifica, richiede la selezione del tasto "Enter" sulla tastiera. <br />
+Il bottone "Back" cancellerà ogni modifica.]]>
+            </description>
+        </item>
+        <item>
+            <title>Files Video ed Audio</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_video.png" />NetPlayer accetta tutti i tipi di file multimediali elencati nel manuale della TV. Si può controllare completamente la riproduzione e il ridimensionamento dell'immagine.
+La funzione di Playback è supportata.]]>
+            </description>
+        </item>
+        <item>
+            <title>Pagine web WWW</title>
+            <description>
+            <![CDATA[<img src="images/big/picture.png" />E'possibile visualizzare il contenuto delle pagine web selezionate. Tuttavia, si ricorda che JavaScritpt non è supportato ed alcuni siti possono essere visualizzati in modo errato.
+In assenza del supporto per il mouse, dalla TV non è possibile interagire con il sito web.]]>	
+            </description>
+        </item>
+        <item>
+            <title>RSS</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_rss.png" />L'RSS è un file specifico il quale è collegato al sito web e selezionato in modo da presentare il contenuto dello stesso. Solitamente contiene le informazioni relative al sito oggetto ed agli aggiornamenti in tempo reale.]]>
+            </description>
+        </item>     
+        <item>
+            <title>Documenti di Testo</title>
+            <description>
+            <![CDATA[<img src="images/big/doc_text.png" />I documenti di testo sono in genere creati in lingua con i caratteri specifici. Ci sono molti standard di questi caratteri.
+Widget NetPlayer supporta solo UTF-8. Se si utilizzano altri metodi, si possono avere dei problemi con la corretta visualizzazione di alcuni caratteri.
+Informazioni su come cambiare la codifica dei documenti visualizzati possono essere trovate sul sito http://tvwidget.pl]]>
+            </description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,474 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+
+.s_header{
+	position : absolute;
+	font-family : arial;
+	font-size : 10pt;
+	color : #000000;
+	left : 20px;
+	top : 54px;
+	width : 900px;
+    height: 185px;
+    overflow: hidden;  
+}
+
+.b_header{
+	position : absolute;
+	font-family : arial;
+	font-size : 10pt;
+	color : #0000FF;
+	left : 20px;
+	top : 54px;
+	width : 920px;
+    height: 438px;
+    background-image: url("../images/infoMovi/header.png");
+    overflow:auto; 
+    z-index: 2;	
+}
+
+div#loading
+{
+	width: 72px;
+	height: 72px;
+	text-align: center;
+	font-weight: bold; 
+	color: #FFFFFF; 
+	z-index: 10;
+	position : absolute;
+	left : 424px;
+	top : 196px;
+
+background-image:url("../images/loading/loadingBG.png");
+opacity: "0.3";
+}
+
+
+
+div#percent
+{
+	position: relative; 
+	top: 27px;
+	z-index: 10;
+}
+
+#imgHeader{
+	left : 0px;
+	top : 0px;
+    float: left;
+    max-width: 250px;
+    max-height: 180px;
+    border: solid 2px #404040;
+    margin-right: 10 px;
+}
+
+#inputUrl{
+	position : absolute;
+	width : 820px;
+	left : 68px;
+	top : 6px;
+    font-size : 16pt;
+    visibility: hidden;
+}
+
+
+
+#lblHeaderTitle{
+	font-family : arial;
+	font-size : 16pt;
+	color : #ed9e08;
+   position: relative; 
+}
+
+#lblHeaderTime{
+	font-family : arial;
+	font-size : 10pt;
+	color : #999999;
+    position: relative; 
+}
+#lblHeaderText{
+	font-family : arial;
+	font-size : 14pt;
+	color : #ccc;
+  }
+
+#back_rss {
+    position:absolute;
+    left : 0px;
+    top : 0px;
+    width : 960px;
+    height : 540px;
+    background-image:url(../images/tlo.png);
+}
+
+#imgFrame{
+	position : absolute;
+	left : 20px;
+	top : 252px;
+	width : 866px;
+	height : 40px;
+    z-index: 1;
+}
+
+#imgTitle_0{
+	position : absolute;
+	left : 30px;
+	top : 258px;
+}
+
+#lblTitle_0{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #ddd;
+	left : 72px;
+	top : 260px;
+	width : 880px;
+}
+
+#imgTitle_1{
+	position : absolute;
+	left : 30px;
+	top : 298px;
+    visibility: hidden;
+}
+
+#lblTitle_1{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #ddd;
+	left : 72px;
+	top : 300px;
+    width : 880px;
+    visibility: hidden;
+}
+
+#imgTitle_2{
+	position : absolute;
+	left : 30px;
+	top : 338px;
+    visibility: hidden;
+}
+
+#lblTitle_2{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #ddd;
+	left : 72px;
+	top : 340px;
+	width : 880px;
+    visibility: hidden;
+}
+
+#imgTitle_3{
+	position : absolute;
+	left : 30px;
+	top : 378px;
+    visibility: hidden;
+}
+
+#lblTitle_3{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #ddd;
+	left : 72px;
+	top : 380px;
+	width : 880px;
+    visibility: hidden;
+}
+
+#imgTitle_4{
+	position : absolute;
+	left : 30px;
+	top : 418px;
+    visibility: hidden;
+}
+
+#lblTitle_4{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #ddd;
+	left : 72px;
+	top : 420px;
+	width : 880px;
+    visibility: hidden;
+}
+
+#imgTitle_5{
+	position : absolute;
+	left : 30px;
+	top : 458px;
+    visibility: hidden;
+}
+
+#lblTitle_5{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #ddd;
+	left : 72px;
+	top : 460px;
+	width : 880px;
+    visibility: hidden;
+}
+
+#infoMovi{
+position:absolute;
+left:0px; top:0px;
+width: 960px; height:110px;
+background-image:url("../images/infoMovi/background.png");
+z-index: 2;
+visibility: hidden;
+opacity: "0.4";
+}
+
+#volumeBarBG{
+position:absolute;
+left:10px; top:310px;
+width:40px; height:190px;
+background-image:url("../images/infoMovi/volumeBarBG.png");
+visibility: hidden;
+}
+
+#volumeBar{
+position:absolute;
+left: 11px; top:36px;
+width:16px; height:120px;
+background-image:url("../images/infoMovi/volumeBar.png");
+}
+
+#progressBarBG{
+position:absolute;
+left:504px; top:48px;
+width:400px; height:8px;
+background-image:url("../images/infoMovi/progressBarBG.png");
+}
+
+#progressBar{
+position:absolute;
+left: 0px; top:0px;
+width:0%; height:8px;
+background-image:url("../images/infoMovi/progressBar.png");
+}
+
+#timeInfo{
+ position:absolute;
+left: 320px; top:40px;
+color : #fff;
+width: 180px;
+text-align:center;
+font-size:20px; 
+}
+
+#titleInfo{
+    position : absolute;
+	font-family : arial;
+	font-size : 16px;
+	color : #0f0;
+	left : 20px;
+	top : 80px;
+    width : 920px;
+}
+
+#sizeInfoBG{
+    position : absolute;
+	left : 15px;
+	top : 10px;
+    width : 100px;
+    background-image:url("../images/infoMovi/background.png");
+    opacity: "0.4";
+    visibility: hidden;
+    z-index: 2;
+}
+
+#sizeInfo{
+	font-family : arial;
+	font-size : 16px;
+	color : #fff;
+    text-align:center;
+}
+
+#statusInfo{
+    position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #fff;
+	left : 20px;
+	top : 20px;
+    width : 200px;
+}
+
+
+#imgAnim{
+ position : absolute;
+ left : 43px;
+ top : 37px;
+ width: 72px;
+ height:72px;
+}
+
+#helpbar{
+position : absolute;
+ left : 0px;
+ top : 505px;
+ width: 960px;
+ height:35px;
+ text-align: right;
+ font-size : 12pt;
+ color : #fff;
+ background-image:url("../images/helpbar/helpbarBG.png");
+}
+
+#helpbar_table{
+position: relative;
+border: 0px;
+cellspacing: 0px;
+cellpadding: 0px;
+z-index: 1;
+}
+
+#helpbar_time{
+position: absolute;
+left : 10px;
+ top : 5px;
+ font-size : 16pt;
+ color : #ccc;
+z-index: 1;
+}
+
+#flags{
+position : absolute;
+ left : 935px;
+ top : 0px;
+ height:32px;
+ z-index: 1;
+ }
+
+#about{
+position : absolute;
+  font-family : arial;
+ font-size : 11pt;
+ color : #fffff;
+ left : 670px;
+ top : 15px;
+ z-index: 2;
+ }
+ 
+ #title{
+	position : absolute;
+	font-family : arial;
+	font-size : 16pt;
+	color : #fff;
+	left : 16px;
+	top : 8px;
+	width : 800px;
+}
+
+ #update{
+	position : absolute;
+	font-family : arial;
+	font-size : 10pt;
+	color : #00FF00;
+	left : 200px;
+	top : 5px;
+	width : 500px;
+}
+
+#iframe{
+position: absolute;
+color : #808080;
+left : 0px;
+top : 0px;
+width : 960px;
+height : 505px;
+} 
+
+#imgKeyb{
+position: absolute;
+left: 70px;
+top: 40px ;
+z-index: 2;
+visibility: hidden;
+}
+
+#imgKeybCyr{
+position : absolute;
+left : 70px;
+top : 40px;
+z-index: 2;
+visibility: hidden;
+}
+
+#cursorKeyb{
+position: absolute;
+left: 195px;
+top: 240px ;
+z-index: 4;
+visibility: hidden;
+}
+
+#inputKeyb{
+position: absolute;
+left: 95px;
+top: 65px ;
+font-size : 16pt;
+height: 30px;
+width: 770px;
+z-index: 3;
+background-color: #2A2A36;
+color: #ddd;
+border: 0;
+visibility: hidden;
+}
+
+#shiftKeyb{
+position: absolute;
+left: 86px;
+top: 272px ;
+z-index: 3;
+visibility: hidden;
+}
+
+#alert{
+position: absolute;
+background-color : #f00;
+color: #ddd;
+left: 270px;
+top: 250px ;
+height: 30px;
+font-size : 18pt;
+visibility: hidden;
+z-index: 3;
+}
+
+#scrollBar{
+position: absolute;
+left: 916px;
+top: 260px ;
+height: 232px;
+width: 4px;
+background-color : #888;
+}
+
+#scrollBarPos{
+position: absolute;
+left: 0x;
+top: 0px ;
+height: 10px;
+width: 4px;
+background-color : #ddd;
+}
+
+#imgCam{
+position: absolute;
+left: 160px;
+top: 10px ;
+visibility: hidden;
+}
+
