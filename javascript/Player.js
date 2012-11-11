@@ -71,7 +71,7 @@ Player.init = function(lang)
                     Player.msg_4="Nepodporované rozlišení videa !";
                     Player.msg_5="Stream nenájdený !";
                    break;
-                   
+
                 case "12":
                     //DE
                     Player.msg_0="Verbindung zum Server fehlgeschlagen !";
@@ -81,7 +81,7 @@ Player.init = function(lang)
                     Player.msg_4="Aufloesung wird nicht unterstuetzt !";
                     Player.msg_5="Datei nicht gefunden !";
                    break;
-                   
+
                 case "15":
                     //IT
                     Player.msg_0="La Connessione al server è stata interrotta !";
