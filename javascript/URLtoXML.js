@@ -1,5 +1,5 @@
 var URLtoXML = {
-    flagDebug: true,
+    flagDebug: false,
     rssTypeList: 'parser',
     MacAddr: '',
     fInit: null,
@@ -757,41 +757,46 @@ URLtoXML['InitParsePortal'] = function (_0x7d93x2) {
         };
     };
 };
-URLtoXML['CheckActivation'] = function () {
+
+URLtoXML.CheckActivation = function () {
     var _0x7d93x4 = null;
-    if (this['fInit'] == null) {
-        _0x7d93x4 = document['getElementById']('pluginNetwork');
+    if (this.fInit == null) {
+        _0x7d93x4 = document.getElementById('pluginNetwork');
         if (_0x7d93x4) {
             this['MacAddr'] = _0x7d93x4.GetMAC();
         };
-//        if (URLtoXML['trim'](this.MacAddr) != '') {
+
+//        if (URLtoXML.trim(this.MacAddr) != '') {
 //            var _0x7d93x5 = URLtoXML.GetPage(this['icoPList'], '', '');
-//            _0x7d93x5 = _0x7d93x5['split'](/\r\n/);
-//            for (var _0x7d93x6 in _0x7d93x5) {
-//                _0x7d93x5[_0x7d93x6] = _0x7d93x5[_0x7d93x6]['split'](/\s+/);
+//            _0x7d93x5 = _0x7d93x5.split(/\r\n/);
+//            for (var i in _0x7d93x5) {
+//                _0x7d93x5[i] = _0x7d93x5[i].split(/\s+/);
 //            };
+
 //            for (var _0x7d93x6 in _0x7d93x5) {
 //                if (URLtoXML['trim'](this['MacAddr']['toLowerCase']()) == URLtoXML['trim'](_0x7d93x5[_0x7d93x6][0]['toLowerCase']())) {
 //                    this['dInit'] = ' \u0434\u043E <font color="skyblue">' + URLtoXML['trim'](_0x7d93x5[_0x7d93x6][1]) + '</font>';
-                    this['dInit'] = ' \u0434\u043E <font color="skyblue">cracked by vinnitu</font>';
-                    this['title'] = this['title'] + this['dInit'];
-                    this['fInit'] = true;
+                    this.dInit = ' \u0434\u043E <font color="skyblue">cracked by vinnitu</font>';
+                    this.title = this.title + this.dInit;
+                    this.fInit = true;
                     return true;
 //                };
 //            };
 //        };
-//        this['fInit'] = false;
+//        this.fInit = false;
 //        return false;
     } else {
-        this['title'] = this['title'] + this['dInit'];
-        return this['fInit'];
+        this.title = this.title + this.dInit;
+        return this.fInit;
     };
 };
+
 URLtoXML['InfoAccess'] = function () {
     var _0x7d93x7 = this['prefixXML'] + '<table align="center" border="0" cellspacing="0" cellpadding="0" width="95%">\x0A' + '   <tr><td align="left" valign="top">\x0A' + '      <center>\x0A' + '         <div style="font-size: 20px;">\u0414\u043E\u0441\u0442\u0443\u043F \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D.</div>\x0A';
     _0x7d93x7 = _0x7d93x7 + '      </center>\x0A' + '      <hr/>\x0A' + '         <center>\u0412\u0430\u0448 \u043C\u0430\u043A-\u0430\u0434\u0440\u0435\u0441:\x0A' + '         <font color="skyblue">\x0A' + this['MacAddr'] + '         </font>\x0A' + '         </center>\x0A' + '      <hr/>\x0A' + '      \u0412\u0441\u044F \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u0430 \u043F\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u043D\u0430 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0435:<br/><font color="skyblue">http://78.159.49.183</font>\x0A' + '      <br/>\u0415\u0441\u043B\u0438 \u0443 \u0412\u0430\u0441 \u043E\u0441\u0442\u0430\u043B\u0438\u0441\u044C \u043A\u0430\u043A\u0438\u0435-\u0442\u043E \u0432\u043E\u043F\u0440\u043E\u0441\u044B, \u043C\u043E\u0436\u0435\u0442\u0435 \u043E\u0431\u0440\u0430\u0442\u0438\u0442\u044C\u0441\u044F \u043D\u0430 e-mail:<br/><font color="skyblue">tsnakeman@mail.ru</font>\x0A' + '   </td></tr>\x0A' + '</table>\x0A' + this['endedXML'];
     return _0x7d93x7;
 };
+
 URLtoXML['Proceed'] = function (_0x7d93x2, _0x7d93x8) {
     _0x7d93x2 = URLtoXML['trim'](_0x7d93x2);
     URLtoXML.InitParsePortal(_0x7d93x2);
