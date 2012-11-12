@@ -162,7 +162,7 @@ URLtoXML['InitParsePortal'] = function (_0x7d93x2) {
                     if (_0x7d93x2['toLowerCase']()['indexOf']('filmy.net.ua') >= 0) {
                         this['title'] = 'FILMY.NET.UA';
                     } else {
-                        if (_0x7d9 3x2['toLowerCase']()['indexOf']('kino-v-online.ru') >= 0) {
+                        if (_0x7d93x2['toLowerCase']()['indexOf']('kino-v-online.ru') >= 0) {
                             this['title'] = 'KINO-V-ONLINE.RU';
                         } else {
                             if (_0x7d93x2['toLowerCase']()['indexOf']('megogo.net') >= 0) {
@@ -758,12 +758,12 @@ URLtoXML['InitParsePortal'] = function (_0x7d93x2) {
     };
 };
 URLtoXML['CheckActivation'] = function () {
-//    var _0x7d93x4 = null;
-//    if (this['fInit'] == null) {
-//        _0x7d93x4 = document['getElementById']('pluginNetwork');
-//        if (_0x7d93x4) {
+    var _0x7d93x4 = null;
+    if (this['fInit'] == null) {
+        _0x7d93x4 = document['getElementById']('pluginNetwork');
+        if (_0x7d93x4) {
             this['MacAddr'] = _0x7d93x4.GetMAC();
-//        };
+        };
 //        if (URLtoXML['trim'](this.MacAddr) != '') {
 //            var _0x7d93x5 = URLtoXML.GetPage(this['icoPList'], '', '');
 //            _0x7d93x5 = _0x7d93x5['split'](/\r\n/);
@@ -772,7 +772,8 @@ URLtoXML['CheckActivation'] = function () {
 //            };
 //            for (var _0x7d93x6 in _0x7d93x5) {
 //                if (URLtoXML['trim'](this['MacAddr']['toLowerCase']()) == URLtoXML['trim'](_0x7d93x5[_0x7d93x6][0]['toLowerCase']())) {
-                    this['dInit'] = ' \u0434\u043E <font color="skyblue">' + URLtoXML['trim'](_0x7d93x5[_0x7d93x6][1]) + '</font>';
+//                    this['dInit'] = ' \u0434\u043E <font color="skyblue">' + URLtoXML['trim'](_0x7d93x5[_0x7d93x6][1]) + '</font>';
+                    this['dInit'] = ' \u0434\u043E <font color="skyblue">cracked by vinnitu</font>';
                     this['title'] = this['title'] + this['dInit'];
                     this['fInit'] = true;
                     return true;
@@ -781,10 +782,10 @@ URLtoXML['CheckActivation'] = function () {
 //        };
 //        this['fInit'] = false;
 //        return false;
-//    } else {
-//        this['title'] = this['title'] + this['dInit'];
-//        return this['fInit'];
-//    };
+    } else {
+        this['title'] = this['title'] + this['dInit'];
+        return this['fInit'];
+    };
 };
 URLtoXML['InfoAccess'] = function () {
     var _0x7d93x7 = this['prefixXML'] + '<table align="center" border="0" cellspacing="0" cellpadding="0" width="95%">\x0A' + '   <tr><td align="left" valign="top">\x0A' + '      <center>\x0A' + '         <div style="font-size: 20px;">\u0414\u043E\u0441\u0442\u0443\u043F \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D.</div>\x0A';
