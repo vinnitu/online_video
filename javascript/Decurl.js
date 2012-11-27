@@ -1,108 +1,86 @@
 var Decurl = {};
 
 function parser(str, left, right) {
-       var res = '';
-       var tmp = str;
-       var i = tmp.indexOf(left);
-        if ( i > 0 )   {
-            tmp = tmp.substr(i + left.length);
-            i = tmp.indexOf(right);
-            if ( i > 0 )   res = tmp.substr(0, i);
-        }
-    return res;    
+    var res = '';
+    var tmp = str;
+    var i = tmp.indexOf(left);
+    if (i > 0) {
+        tmp = tmp.substr(i + left.length);
+        i = tmp.indexOf(right);
+        if (i > 0) res = tmp.substr(0, i);
+    }
+
+    return res;
 }
 
 //Экранирование строки
-RegExp.escape = function (text) {
+RegExp.escape = function(text) {
     return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 }
 
+Decurl.checkUrl = function(url) {
+    result = 0;
+    alert("checkUrl:" + url);
 
-Decurl.checkUrl=function(url)
-   {
-     result = 0;
-	alert("checkUrl:"+url);
-     if ((url.indexOf("igru-film.net") > 0) && (url.indexOf("md5hash") > 0)) 
-       result = 1;
-     else
-     if ((url.indexOf("/vkontakte.php?video") > 0) || (url.indexOf("vkontakte.ru/video_ext.php") > 0) ||
-	 (url.indexOf("/vkontakte/vk_kinohranilishe.php?id=") > 0) || (url.indexOf("vk.com/video_ext.php?") > 0 ))
-       result = 2;
-     else
-     if ((url.indexOf("kino-dom.tv") > 0) && (url.indexOf("md5hash") > 0)) 
-       result = 3;
-     else
-     if ((url.indexOf("linecinema.org") > 0) && (url.indexOf("md5hash") > 0)) 
-       result = 4;
-     else
-     if (url.indexOf("/io.ua/") > 0)
-       result = 5;
-     else
-     if (url.indexOf("sovok.tv") > 0)
-       result = 6;
-     else
-     if ((url.indexOf("datalock.ru") > 0) && (url.indexOf("md5hash") > 0))  // seasonvar.ru
-       result = 7;
-     else
-     if ((url.indexOf("/fs.ua/") > 0) && (url.indexOf("fileredirect=") > 0)) // fs.ua 
-       result = 8;
-     else
-     if (url.indexOf("/igru.net.ua/proverka-frame.php") > 0) 
+    if ((url.indexOf("igru-film.net") > 0) && (url.indexOf("md5hash") > 0))
+        result = 1;
+    else
+    if ((url.indexOf("/vkontakte.php?video") > 0) || (url.indexOf("vkontakte.ru/video_ext.php") > 0) ||
+        (url.indexOf("/vkontakte/vk_kinohranilishe.php?id=") > 0) || (url.indexOf("vk.com/video_ext.php?") > 0 ))
+        result = 2;
+    else
+    if ((url.indexOf("kino-dom.tv") > 0) && (url.indexOf("md5hash") > 0)) 
+        result = 3;
+    else
+    if ((url.indexOf("linecinema.org") > 0) && (url.indexOf("md5hash") > 0)) 
+        result = 4;
+    else
+    if (url.indexOf("/io.ua/") > 0)
+        result = 5;
+    else
+    if (url.indexOf("sovok.tv") > 0)
+        result = 6;
+    else
+    if ((url.indexOf("datalock.ru") > 0) && (url.indexOf("md5hash") > 0))  // seasonvar.ru
+        result = 7;
+    else
+    if ((url.indexOf("/fs.ua/") > 0) && (url.indexOf("fileredirect=") > 0)) // fs.ua 
+        result = 8;
+    else
+    if (url.indexOf("/igru.net.ua/proverka-frame.php") > 0) 
        result = 9;
-     /*else
-     if(url.toLowerCase().indexOf("arjlover.net") >= 0)
+    /*else
+    if(url.toLowerCase().indexOf("arjlover.net") >= 0)
        result = 10;*/
 
-
-
-
-    alert("checkUrl : "+ result);
+    alert("checkUrl:"+ result);
     return result;
 }
 
-Decurl.getUrl=function(url)
-   {
-   
-     switch (Decurl.checkUrl(url)) 
-      {
-        case 1: //  igru.net.ua, serialu.net
-            result = "http://igru.net.ua/game/retrum/";
-    		 break;
-    	case 2:
-	     result = url.replace(/#038;/g, '');
-    		 break;
-    	case 3: //  kino-dom.tv
-             result = "http://kino-dom.tv/697-skarlett-scarlett-onlajn.html";
-            break;
-    	case 4: //  linecinema.org
-             result = "http://www.linecinema.org/500293-l.html";
-            break;
-        case 7: //  seasonvar.ru
-             result = "http://seasonvar.ru/serial-2428-Bombila.html";
-            break;
-        case 8: //  fs.ua
-             result = url.replace('&amp;', '&');
-            break;
-        /*case 10: //  arjlover.net
-             result = URLtoXML.GetFinalUrl(url);
-            break;*/
-        default:
-             result = url;
-      }      
-    return result;
+Decurl.getUrl = function(url) {
+    switch (Decurl.checkUrl(url)) {
+        case 1: return "http://igru.net.ua/game/retrum/"; //  igru.net.ua, serialu.net
+        case 2: return url.replace(/#038;/g, '');
+        case 3: return "http://kino-dom.tv/697-skarlett-scarlett-onlajn.html"; //  kino-dom.tv
+        case 4: return "http://www.linecinema.org/500293-l.html"; //  linecinema.org
+        case 7: return "http://seasonvar.ru/serial-2428-Bombila.html"; //  seasonvar.ru
+        case 8: return result = url.replace('&amp;', '&'); //  fs.ua
+        //case 10: return URLtoXML.GetFinalUrl(url); //  arjlover.net
+        default: return url;
+    }
 }
 
 var serialuUrl=''; //Для igru.net.ua, serialu.net делаемa два запроса, поэтому запоминаемa исходный адрес
 Decurl.MakeUrl = function (url, responseText) {
-		
     switch (Decurl.checkUrl(url)) {
-		case 1: //  igru.net.ua, serialu.net
-			serialuUrl=url;
-			result="http://igru.net.ua/proverka-frame.php?name=/film/mp41/Retrum.2010.flv&serv=1";
-			break;
+        case 1: //  igru.net.ua, serialu.net
+            serialuUrl=url;
+            result="http://igru.net.ua/proverka-frame.php?name=/film/mp41/Retrum.2010.flv&serv=1";
+            break;
+
         case 9: //  igru.net.ua, serialu.net
-			//alert('MakeUrl:'+url);
-			//alert('responseText:'+responseText);
+            //alert('MakeUrl:'+url);
+            //alert('responseText:'+responseText);
             hash = parser(responseText, "file=http://s1.igru-film.net/s/", "/");
             result = serialuUrl.replace("md5hash", hash);
             break;
@@ -185,7 +163,7 @@ Decurl.MakeUrl = function (url, responseText) {
 
         default:
             result = url;
-    }      
+    }
 
     return result;
 }
